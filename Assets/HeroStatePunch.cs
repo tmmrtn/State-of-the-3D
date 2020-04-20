@@ -15,17 +15,20 @@ public class HeroStatePunch : StateMachineBehaviour
         //GameObject.FindWithTag("P1LeftHand").SetActive(true);
         lhand = GameObject. Find("hand.L");
         lhandBox = lhand.GetComponent<BoxCollider>();
+        lhandBox.enabled = false;
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-    //    float a = animator.GetFloat("PunchTime");
-        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.90f)
+        //    float a = animator.GetFloat("PunchTime");
+
+        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.50f && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.85f)
         {
             lhandBox.enabled = true;
-
         }
+        else
+            lhandBox.enabled = false;
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
