@@ -4,39 +4,34 @@ using UnityEngine;
 
 public class HeroStatePunch : StateMachineBehaviour
 {
-    //GameObject robot;
     GameObject lhand;
-    BoxCollider lhandBox;
 
-    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        // robot =     
-        //GameObject.FindWithTag("P1LeftHand").SetActive(true);
-        lhand = GameObject. Find("hand.L");
-        lhandBox = lhand.GetComponent<BoxCollider>();
-        lhandBox.enabled = false;
+        lhand = GameObject.Find("hand.L");
+        lhand.tag = "NonDamaging";      
+        
     }
 
-    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //    float a = animator.GetFloat("PunchTime");
+        //
+        //      Enable the hitbox on the punching hand only between certain frames
+        //      because not all frames of the animation are supposed to be damaging (e.g., 'winding up' the punch).
+        //
 
-        if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.50f && animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 0.85f)
+        if (stateInfo.normalizedTime >= 0.45f && stateInfo.normalizedTime < 0.85f)
         {
-            lhandBox.enabled = true;
+            lhand.tag = "Damaging";
         }
         else
-            lhandBox.enabled = false;
+            lhand.tag = "NonDamaging";
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        //GameObject.FindGameObjectWithTag("P1LeftHand").SetActive(false);
-        //        lhand.SetActive(false);
-        lhandBox.enabled = false;
+        lhand.tag = "NonDamaging";
 
     }
 

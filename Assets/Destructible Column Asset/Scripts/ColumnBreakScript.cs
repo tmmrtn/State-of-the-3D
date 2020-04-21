@@ -34,9 +34,10 @@ public class ColumnBreakScript : MonoBehaviour
         brokenColumn.SetActive(true);
     }
 
-    private void OnTriggerEnter(Collider other)
+    //private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.gameObject.tag == "P1LeftHand")
+        if (other.collider.tag == "Damaging")
         {
             if (!isBroken)
             {
@@ -48,12 +49,6 @@ public class ColumnBreakScript : MonoBehaviour
 
     void Update()
     {
-        //this is a placeholder activation for breaking the column when the space key is pressed
-        if (!isBroken)
-        {
-            //if (Input.GetKeyDown (KeyCode.Space)) {
-            //	BreakColumn ();
-            //}
-        }
+
     }
 }

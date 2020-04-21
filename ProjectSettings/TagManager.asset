@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - P1LeftHand
+  - Damaging
+  - NonDamaging
   layers:
   - Default
   - TransparentFX
