@@ -1,185 +1,539 @@
 fileFormatVersion: 2
 guid: 8f8c48bd9ff187c4e9b83befed2ce84b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: casual_male
-    100004: Chest
-    100006: Eye_L
-    100008: Eye_R
-    100010: Eyebrow_1_L
-    100012: Eyebrow_1_R
-    100014: Eyebrow_L
-    100016: Eyebrow_R
-    100018: Foot_L
-    100020: Foot_R
-    100022: hand_L
-    100024: hand_R
-    100026: Head
-    100028: Hips
-    100030: Index_1_L
-    100032: Index_1_R
-    100034: Index_2_L
-    100036: Index_2_R
-    100038: Index_L
-    100040: Index_R
-    100042: Jaw
-    100044: Lower_Arm_L
-    100046: Lower_Arm_R
-    100048: Lower_Eye_Lid_L
-    100050: Lower_Eye_Lid_R
-    100052: Lower_Leg_L
-    100054: Lower_Leg_R
-    100056: Lower_Lip
-    100058: Lower_Lip_L
-    100060: Lower_Lip_R
-    100062: Middle_1_L
-    100064: Middle_1_R
-    100066: Middle_2_L
-    100068: Middle_2_R
-    100070: Middle_L
-    100072: Middle_R
-    100074: muscle_buccinator_L
-    100076: muscle_buccinator_R
-    100078: Neck
-    100080: Nose
-    100082: Nose_L
-    100084: Nose_R
-    100086: Pinky_1_L
-    100088: Pinky_1_R
-    100090: Pinky_2_L
-    100092: Pinky_2_R
-    100094: Pinky_L
-    100096: Pinky_R
-    100098: Rig
-    100100: Ring_1_L
-    100102: Ring_1_R
-    100104: Ring_2_L
-    100106: Ring_2_R
-    100108: Ring_L
-    100110: Ring_R
-    100112: Shoulder_L
-    100114: Shoulder_R
-    100116: Spine
-    100118: Spine 1
-    100120: Thumb_1_L
-    100122: Thumb_1_R
-    100124: Thumb_2_L
-    100126: Thumb_2_R
-    100128: Thumb_L
-    100130: Thumb_R
-    100132: Toes_L
-    100134: Toes_R
-    100136: tongue
-    100138: Upper_Arm_L
-    100140: Upper_Arm_R
-    100142: Upper_Eye_Lid_L
-    100144: Upper_Eye_Lid_R
-    100146: Upper_Leg_L
-    100148: Upper_Leg_R
-    100150: Upper_LIp
-    100152: Upper_LIp_L
-    100154: Upper_LIp_R
-    400000: casual_male
-    400002: //RootNode
-    400004: Chest
-    400006: Eye_L
-    400008: Eye_R
-    400010: Eyebrow_1_L
-    400012: Eyebrow_1_R
-    400014: Eyebrow_L
-    400016: Eyebrow_R
-    400018: Foot_L
-    400020: Foot_R
-    400022: hand_L
-    400024: hand_R
-    400026: Head
-    400028: Hips
-    400030: Index_1_L
-    400032: Index_1_R
-    400034: Index_2_L
-    400036: Index_2_R
-    400038: Index_L
-    400040: Index_R
-    400042: Jaw
-    400044: Lower_Arm_L
-    400046: Lower_Arm_R
-    400048: Lower_Eye_Lid_L
-    400050: Lower_Eye_Lid_R
-    400052: Lower_Leg_L
-    400054: Lower_Leg_R
-    400056: Lower_Lip
-    400058: Lower_Lip_L
-    400060: Lower_Lip_R
-    400062: Middle_1_L
-    400064: Middle_1_R
-    400066: Middle_2_L
-    400068: Middle_2_R
-    400070: Middle_L
-    400072: Middle_R
-    400074: muscle_buccinator_L
-    400076: muscle_buccinator_R
-    400078: Neck
-    400080: Nose
-    400082: Nose_L
-    400084: Nose_R
-    400086: Pinky_1_L
-    400088: Pinky_1_R
-    400090: Pinky_2_L
-    400092: Pinky_2_R
-    400094: Pinky_L
-    400096: Pinky_R
-    400098: Rig
-    400100: Ring_1_L
-    400102: Ring_1_R
-    400104: Ring_2_L
-    400106: Ring_2_R
-    400108: Ring_L
-    400110: Ring_R
-    400112: Shoulder_L
-    400114: Shoulder_R
-    400116: Spine
-    400118: Spine 1
-    400120: Thumb_1_L
-    400122: Thumb_1_R
-    400124: Thumb_2_L
-    400126: Thumb_2_R
-    400128: Thumb_L
-    400130: Thumb_R
-    400132: Toes_L
-    400134: Toes_R
-    400136: tongue
-    400138: Upper_Arm_L
-    400140: Upper_Arm_R
-    400142: Upper_Eye_Lid_L
-    400144: Upper_Eye_Lid_R
-    400146: Upper_Leg_L
-    400148: Upper_Leg_R
-    400150: Upper_LIp
-    400152: Upper_LIp_L
-    400154: Upper_LIp_R
-    2100000: Casual_Male
-    4300000: casual_male
-    7400000: Rig|base_pose
-    7400002: Rig|man_fall
-    7400004: Rig|man_idle
-    7400006: Rig|man_jump_in_place
-    7400008: Rig|man_run_in_place
-    7400010: Rig|man_run_root
-    7400012: Rig|man_sit_idle
-    7400014: Rig|man_sit_stand_up
-    7400016: Rig|man_sit_start
-    7400018: Rig|man_sitting
-    7400020: Rig|man_stride_left_root
-    7400022: Rig|man_stride_right_root
-    7400024: Rig|man_walk_in_place
-    7400026: Rig|man_walk_left_root
-    7400028: Rig|man_walk_right_root
-    7400030: Rig|man_walk_root_motion
-    9500000: //RootNode
-    13700000: casual_male
-    2186277476908879412: ImportLogs
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: casual_male
+  - first:
+      1: 100004
+    second: Chest
+  - first:
+      1: 100006
+    second: Eye_L
+  - first:
+      1: 100008
+    second: Eye_R
+  - first:
+      1: 100010
+    second: Eyebrow_1_L
+  - first:
+      1: 100012
+    second: Eyebrow_1_R
+  - first:
+      1: 100014
+    second: Eyebrow_L
+  - first:
+      1: 100016
+    second: Eyebrow_R
+  - first:
+      1: 100018
+    second: Foot_L
+  - first:
+      1: 100020
+    second: Foot_R
+  - first:
+      1: 100022
+    second: hand_L
+  - first:
+      1: 100024
+    second: hand_R
+  - first:
+      1: 100026
+    second: Head
+  - first:
+      1: 100028
+    second: Hips
+  - first:
+      1: 100030
+    second: Index_1_L
+  - first:
+      1: 100032
+    second: Index_1_R
+  - first:
+      1: 100034
+    second: Index_2_L
+  - first:
+      1: 100036
+    second: Index_2_R
+  - first:
+      1: 100038
+    second: Index_L
+  - first:
+      1: 100040
+    second: Index_R
+  - first:
+      1: 100042
+    second: Jaw
+  - first:
+      1: 100044
+    second: Lower_Arm_L
+  - first:
+      1: 100046
+    second: Lower_Arm_R
+  - first:
+      1: 100048
+    second: Lower_Eye_Lid_L
+  - first:
+      1: 100050
+    second: Lower_Eye_Lid_R
+  - first:
+      1: 100052
+    second: Lower_Leg_L
+  - first:
+      1: 100054
+    second: Lower_Leg_R
+  - first:
+      1: 100056
+    second: Lower_Lip
+  - first:
+      1: 100058
+    second: Lower_Lip_L
+  - first:
+      1: 100060
+    second: Lower_Lip_R
+  - first:
+      1: 100062
+    second: Middle_1_L
+  - first:
+      1: 100064
+    second: Middle_1_R
+  - first:
+      1: 100066
+    second: Middle_2_L
+  - first:
+      1: 100068
+    second: Middle_2_R
+  - first:
+      1: 100070
+    second: Middle_L
+  - first:
+      1: 100072
+    second: Middle_R
+  - first:
+      1: 100074
+    second: muscle_buccinator_L
+  - first:
+      1: 100076
+    second: muscle_buccinator_R
+  - first:
+      1: 100078
+    second: Neck
+  - first:
+      1: 100080
+    second: Nose
+  - first:
+      1: 100082
+    second: Nose_L
+  - first:
+      1: 100084
+    second: Nose_R
+  - first:
+      1: 100086
+    second: Pinky_1_L
+  - first:
+      1: 100088
+    second: Pinky_1_R
+  - first:
+      1: 100090
+    second: Pinky_2_L
+  - first:
+      1: 100092
+    second: Pinky_2_R
+  - first:
+      1: 100094
+    second: Pinky_L
+  - first:
+      1: 100096
+    second: Pinky_R
+  - first:
+      1: 100098
+    second: Rig
+  - first:
+      1: 100100
+    second: Ring_1_L
+  - first:
+      1: 100102
+    second: Ring_1_R
+  - first:
+      1: 100104
+    second: Ring_2_L
+  - first:
+      1: 100106
+    second: Ring_2_R
+  - first:
+      1: 100108
+    second: Ring_L
+  - first:
+      1: 100110
+    second: Ring_R
+  - first:
+      1: 100112
+    second: Shoulder_L
+  - first:
+      1: 100114
+    second: Shoulder_R
+  - first:
+      1: 100116
+    second: Spine
+  - first:
+      1: 100118
+    second: Spine 1
+  - first:
+      1: 100120
+    second: Thumb_1_L
+  - first:
+      1: 100122
+    second: Thumb_1_R
+  - first:
+      1: 100124
+    second: Thumb_2_L
+  - first:
+      1: 100126
+    second: Thumb_2_R
+  - first:
+      1: 100128
+    second: Thumb_L
+  - first:
+      1: 100130
+    second: Thumb_R
+  - first:
+      1: 100132
+    second: Toes_L
+  - first:
+      1: 100134
+    second: Toes_R
+  - first:
+      1: 100136
+    second: tongue
+  - first:
+      1: 100138
+    second: Upper_Arm_L
+  - first:
+      1: 100140
+    second: Upper_Arm_R
+  - first:
+      1: 100142
+    second: Upper_Eye_Lid_L
+  - first:
+      1: 100144
+    second: Upper_Eye_Lid_R
+  - first:
+      1: 100146
+    second: Upper_Leg_L
+  - first:
+      1: 100148
+    second: Upper_Leg_R
+  - first:
+      1: 100150
+    second: Upper_LIp
+  - first:
+      1: 100152
+    second: Upper_LIp_L
+  - first:
+      1: 100154
+    second: Upper_LIp_R
+  - first:
+      4: 400000
+    second: casual_male
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Chest
+  - first:
+      4: 400006
+    second: Eye_L
+  - first:
+      4: 400008
+    second: Eye_R
+  - first:
+      4: 400010
+    second: Eyebrow_1_L
+  - first:
+      4: 400012
+    second: Eyebrow_1_R
+  - first:
+      4: 400014
+    second: Eyebrow_L
+  - first:
+      4: 400016
+    second: Eyebrow_R
+  - first:
+      4: 400018
+    second: Foot_L
+  - first:
+      4: 400020
+    second: Foot_R
+  - first:
+      4: 400022
+    second: hand_L
+  - first:
+      4: 400024
+    second: hand_R
+  - first:
+      4: 400026
+    second: Head
+  - first:
+      4: 400028
+    second: Hips
+  - first:
+      4: 400030
+    second: Index_1_L
+  - first:
+      4: 400032
+    second: Index_1_R
+  - first:
+      4: 400034
+    second: Index_2_L
+  - first:
+      4: 400036
+    second: Index_2_R
+  - first:
+      4: 400038
+    second: Index_L
+  - first:
+      4: 400040
+    second: Index_R
+  - first:
+      4: 400042
+    second: Jaw
+  - first:
+      4: 400044
+    second: Lower_Arm_L
+  - first:
+      4: 400046
+    second: Lower_Arm_R
+  - first:
+      4: 400048
+    second: Lower_Eye_Lid_L
+  - first:
+      4: 400050
+    second: Lower_Eye_Lid_R
+  - first:
+      4: 400052
+    second: Lower_Leg_L
+  - first:
+      4: 400054
+    second: Lower_Leg_R
+  - first:
+      4: 400056
+    second: Lower_Lip
+  - first:
+      4: 400058
+    second: Lower_Lip_L
+  - first:
+      4: 400060
+    second: Lower_Lip_R
+  - first:
+      4: 400062
+    second: Middle_1_L
+  - first:
+      4: 400064
+    second: Middle_1_R
+  - first:
+      4: 400066
+    second: Middle_2_L
+  - first:
+      4: 400068
+    second: Middle_2_R
+  - first:
+      4: 400070
+    second: Middle_L
+  - first:
+      4: 400072
+    second: Middle_R
+  - first:
+      4: 400074
+    second: muscle_buccinator_L
+  - first:
+      4: 400076
+    second: muscle_buccinator_R
+  - first:
+      4: 400078
+    second: Neck
+  - first:
+      4: 400080
+    second: Nose
+  - first:
+      4: 400082
+    second: Nose_L
+  - first:
+      4: 400084
+    second: Nose_R
+  - first:
+      4: 400086
+    second: Pinky_1_L
+  - first:
+      4: 400088
+    second: Pinky_1_R
+  - first:
+      4: 400090
+    second: Pinky_2_L
+  - first:
+      4: 400092
+    second: Pinky_2_R
+  - first:
+      4: 400094
+    second: Pinky_L
+  - first:
+      4: 400096
+    second: Pinky_R
+  - first:
+      4: 400098
+    second: Rig
+  - first:
+      4: 400100
+    second: Ring_1_L
+  - first:
+      4: 400102
+    second: Ring_1_R
+  - first:
+      4: 400104
+    second: Ring_2_L
+  - first:
+      4: 400106
+    second: Ring_2_R
+  - first:
+      4: 400108
+    second: Ring_L
+  - first:
+      4: 400110
+    second: Ring_R
+  - first:
+      4: 400112
+    second: Shoulder_L
+  - first:
+      4: 400114
+    second: Shoulder_R
+  - first:
+      4: 400116
+    second: Spine
+  - first:
+      4: 400118
+    second: Spine 1
+  - first:
+      4: 400120
+    second: Thumb_1_L
+  - first:
+      4: 400122
+    second: Thumb_1_R
+  - first:
+      4: 400124
+    second: Thumb_2_L
+  - first:
+      4: 400126
+    second: Thumb_2_R
+  - first:
+      4: 400128
+    second: Thumb_L
+  - first:
+      4: 400130
+    second: Thumb_R
+  - first:
+      4: 400132
+    second: Toes_L
+  - first:
+      4: 400134
+    second: Toes_R
+  - first:
+      4: 400136
+    second: tongue
+  - first:
+      4: 400138
+    second: Upper_Arm_L
+  - first:
+      4: 400140
+    second: Upper_Arm_R
+  - first:
+      4: 400142
+    second: Upper_Eye_Lid_L
+  - first:
+      4: 400144
+    second: Upper_Eye_Lid_R
+  - first:
+      4: 400146
+    second: Upper_Leg_L
+  - first:
+      4: 400148
+    second: Upper_Leg_R
+  - first:
+      4: 400150
+    second: Upper_LIp
+  - first:
+      4: 400152
+    second: Upper_LIp_L
+  - first:
+      4: 400154
+    second: Upper_LIp_R
+  - first:
+      21: 2100000
+    second: Casual_Male
+  - first:
+      43: 4300000
+    second: casual_male
+  - first:
+      74: 7400000
+    second: Rig|base_pose
+  - first:
+      74: 7400002
+    second: Rig|man_fall
+  - first:
+      74: 7400004
+    second: Rig|man_idle
+  - first:
+      74: 7400006
+    second: Rig|man_jump_in_place
+  - first:
+      74: 7400008
+    second: Rig|man_run_in_place
+  - first:
+      74: 7400010
+    second: Rig|man_run_root
+  - first:
+      74: 7400012
+    second: Rig|man_sit_idle
+  - first:
+      74: 7400014
+    second: Rig|man_sit_stand_up
+  - first:
+      74: 7400016
+    second: Rig|man_sit_start
+  - first:
+      74: 7400018
+    second: Rig|man_sitting
+  - first:
+      74: 7400020
+    second: Rig|man_stride_left_root
+  - first:
+      74: 7400022
+    second: Rig|man_stride_right_root
+  - first:
+      74: 7400024
+    second: Rig|man_walk_in_place
+  - first:
+      74: 7400026
+    second: Rig|man_walk_left_root
+  - first:
+      74: 7400028
+    second: Rig|man_walk_right_root
+  - first:
+      74: 7400030
+    second: Rig|man_walk_root_motion
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: casual_male
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -187,7 +541,7 @@ ModelImporter:
       name: Casual_Male
     second: {fileID: 2100000, guid: 84fe9b6f87407864e928b5d559d1ff17, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -202,17 +556,17 @@ ModelImporter:
     animationImportErrors: 
     animationImportWarnings: "\nClip 'Rig|man_fall' has import animation warnings
       that might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'Head' has scale animation that will be discarded.\n\t'Upper_Leg_L'
-      has translation animation that will be discarded.\n\nClip 'Rig|man_jump_in_place'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_R' has
-      translation animation that will be discarded.\n\nClip 'Rig|man_stride_left_root'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L' has
-      translation animation that will be discarded.\n\nClip 'Rig|man_stride_right_root'
-      has import animation warnings that might lower retargeting quality:\nNote: Activate
-      translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_R' has
-      translation animation that will be discarded.\n"
+      to improve retargeting quality.\n\t'Head' has scale animation that will be
+      discarded.\n\t'Upper_Leg_L' has translation animation that will be discarded.\n\nClip
+      'Rig|man_jump_in_place' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_R'
+      has translation animation that will be discarded.\n\nClip 'Rig|man_stride_left_root'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_L'
+      has translation animation that will be discarded.\n\nClip 'Rig|man_stride_right_root'
+      has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'Upper_Leg_R'
+      has translation animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -228,6 +582,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|base_pose
       takeName: Rig|base_pose
+      internalID: 0
       firstFrame: 0
       lastFrame: 1
       wrapMode: 0
@@ -256,6 +611,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_fall
       takeName: Rig|man_fall
+      internalID: 0
       firstFrame: 0
       lastFrame: 25
       wrapMode: 0
@@ -284,6 +640,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_idle
       takeName: Rig|man_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 349
       wrapMode: 0
@@ -312,6 +669,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_jump_in_place
       takeName: Rig|man_jump_in_place
+      internalID: 0
       firstFrame: 0
       lastFrame: 30
       wrapMode: 0
@@ -340,6 +698,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_run_in_place
       takeName: Rig|man_run_in_place
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -368,6 +727,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_run_root
       takeName: Rig|man_run_root
+      internalID: 0
       firstFrame: 0
       lastFrame: 24
       wrapMode: 0
@@ -396,6 +756,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_sit_idle
       takeName: Rig|man_sit_idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 120
       wrapMode: 0
@@ -424,6 +785,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_sit_stand_up
       takeName: Rig|man_sit_stand_up
+      internalID: 0
       firstFrame: 0
       lastFrame: 23
       wrapMode: 0
@@ -452,6 +814,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_sit_start
       takeName: Rig|man_sit_start
+      internalID: 0
       firstFrame: 0
       lastFrame: 38
       wrapMode: 0
@@ -480,6 +843,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_sitting
       takeName: Rig|man_sitting
+      internalID: 0
       firstFrame: 0
       lastFrame: 138
       wrapMode: 0
@@ -508,6 +872,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_stride_left_root
       takeName: Rig|man_stride_left_root
+      internalID: 0
       firstFrame: 0
       lastFrame: 45
       wrapMode: 0
@@ -536,6 +901,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_stride_right_root
       takeName: Rig|man_stride_right_root
+      internalID: 0
       firstFrame: 0
       lastFrame: 45
       wrapMode: 0
@@ -564,6 +930,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_walk_in_place
       takeName: Rig|man_walk_in_place
+      internalID: 0
       firstFrame: 0
       lastFrame: 32
       wrapMode: 0
@@ -592,6 +959,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_walk_left_root
       takeName: Rig|man_walk_left_root
+      internalID: 0
       firstFrame: 0
       lastFrame: 40
       wrapMode: 0
@@ -620,6 +988,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_walk_right_root
       takeName: Rig|man_walk_right_root
+      internalID: 0
       firstFrame: 0
       lastFrame: 40
       wrapMode: 0
@@ -648,6 +1017,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Rig|man_walk_root_motion
       takeName: Rig|man_walk_root_motion
+      internalID: 0
       firstFrame: 0
       lastFrame: 32
       wrapMode: 0
@@ -673,32 +1043,34 @@ ModelImporter:
       maskType: 3
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
-    importLights: 1
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -707,10 +1079,10 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Hips
       humanName: Hips
@@ -1550,13 +1922,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
