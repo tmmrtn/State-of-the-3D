@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     Rigidbody rb;
+    Vector3 currentPos;
+    Quaternion currentRot;
 
     // Start is called before the first frame update
     void Start()
@@ -15,13 +17,58 @@ public class PlayerInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.A))
+        if(Input.GetKey(KeyCode.W))
         {
-            rb.transform.Rotate(new Vector3(0, -5, 0), Space.Self);
+            currentPos = rb.transform.position;
+            currentRot = Quaternion.Euler(0, 180, 0);
+
+            if (Input.GetKey(KeyCode.A))
+                currentRot = Quaternion.Euler(0, 135, 0);
+
+            else if (Input.GetKey(KeyCode.D))
+                currentRot = Quaternion.Euler(0, 225, 0);            
+
+            rb.transform.SetPositionAndRotation(currentPos, currentRot);
+
         }
-        if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.A))
         {
-            rb.transform.Rotate(new Vector3(0, 5, 0), Space.Self);
+            currentPos = rb.transform.position;
+            currentRot = Quaternion.Euler(0, 90, 0);
+
+            if (Input.GetKey(KeyCode.W))
+                currentRot = Quaternion.Euler(0, 135, 0);
+
+            else if (Input.GetKey(KeyCode.S))
+                currentRot = Quaternion.Euler(0, 45, 0);
+
+            rb.transform.SetPositionAndRotation(currentPos, currentRot);
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            currentPos = rb.transform.position;
+            currentRot = Quaternion.Euler(0, 0, 0);
+
+            if (Input.GetKey(KeyCode.A))
+                currentRot = Quaternion.Euler(0, 45, 0);
+
+            else if (Input.GetKey(KeyCode.D))
+                currentRot = Quaternion.Euler(0, 315, 0);
+
+            rb.transform.SetPositionAndRotation(currentPos, currentRot);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            currentPos = rb.transform.position;
+            currentRot = Quaternion.Euler(0, 270, 0);
+
+            if (Input.GetKey(KeyCode.W))
+                currentRot = Quaternion.Euler(0, 225, 0);
+
+            else if (Input.GetKey(KeyCode.S))
+                currentRot = Quaternion.Euler(0, 315, 0);
+
+            rb.transform.SetPositionAndRotation(currentPos, currentRot);
         }
     }
 }

@@ -17,9 +17,17 @@ public class HeroStateIdle : StateMachineBehaviour
         {
             animator.SetBool("WalkRoot", true);
         }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("WalkRoot", true);
+        }
         else if (Input.GetKey(KeyCode.S))
         {
-            animator.SetBool("RunBackRoot", true);
+            animator.SetBool("WalkRoot", true);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetBool("WalkRoot", true);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {

@@ -13,17 +13,27 @@ public class HeroStateWalkRoot : StateMachineBehaviour
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        if (!Input.GetKey(KeyCode.W))
+        animator.SetBool("WalkRoot", false);
+
+        if (Input.GetKey(KeyCode.W))
         {
-            animator.SetBool("WalkRoot", false);
+            animator.SetBool("WalkRoot", true);
+        }
+        else  if (Input.GetKey(KeyCode.S))
+        {
+            animator.SetBool("WalkRoot", true);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            animator.SetBool("WalkRoot", true);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            animator.SetBool("WalkRoot", true);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
             animator.SetTrigger("Punch");
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            animator.SetBool("RunBackRoot", true);
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
