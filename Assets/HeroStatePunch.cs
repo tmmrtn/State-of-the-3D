@@ -16,11 +16,11 @@ public class HeroStatePunch : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         //
-        //      Enable the hitbox on the punching hand only between certain frames
-        //      because not all frames of the animation are supposed to be damaging (e.g., 'winding up' the punch).
+        //      Enable the Damaging tag only between certain frames
+        //      because not all frames of the animation are supposed to be damaging (e.g., 'winding up' the punch or kick).
         //
 
-        if (stateInfo.normalizedTime >= 0.45f && stateInfo.normalizedTime < 0.85f)
+        if (stateInfo.normalizedTime >= 0.35f && stateInfo.normalizedTime < 0.70f)
         {
             lhand.tag = "Damaging";
         }
@@ -28,12 +28,10 @@ public class HeroStatePunch : StateMachineBehaviour
             lhand.tag = "NonDamaging";
     }
 
-    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-        lhand.tag = "NonDamaging";
-
-    }
+    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    
+    //}
 
     // OnStateMove is called right after Animator.OnAnimatorMove()
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

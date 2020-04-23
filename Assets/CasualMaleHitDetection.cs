@@ -28,5 +28,21 @@ public class CasualMaleHitDetection : MonoBehaviour
         }
 
     }
+    private void OnTriggerEnter(Collider other)
+    {
+        //
+        //Reason for having OnTrigger when OnCollision already exists?
+        //This OnCollision boxes are small and on key body parts only (hands, feet, head, spine)
+        //So we need this bigger encompassing trigger box to detect when hits occur because
+        //the smaller colliders are not a big enough attack surface
+        //
+        if (other.tag == "Damaging")
+        {
+            Debug.Log("CasualMale he got hit!");
+            rb.constraints = RigidbodyConstraints.None;
+            animator.SetBool("IsDown", true);
+        }
+
+    }
 
 }

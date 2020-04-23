@@ -20,7 +20,7 @@ public class HeroStateKick : StateMachineBehaviour
         //      because not all frames of the animation are supposed to be damaging (e.g., 'winding up' the punch).
         //
 
-        if (stateInfo.normalizedTime >= 0.35f && stateInfo.normalizedTime < 0.65f)
+        if (stateInfo.normalizedTime >= 0.25f && stateInfo.normalizedTime < 0.55f)
         {
             rFoot.tag = "Damaging";
         }

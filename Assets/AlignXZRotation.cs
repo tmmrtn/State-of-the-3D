@@ -12,14 +12,14 @@ public class AlignXZRotation : MonoBehaviour
     //
 
     Rigidbody rb;
-    Quaternion currentRotation;
+    Vector3 currentPos;
+    Quaternion currentRot;
     int frameCount;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
-        currentRotation = new Quaternion();
         frameCount = 0;
 
     }
@@ -29,10 +29,13 @@ public class AlignXZRotation : MonoBehaviour
     {
         if (frameCount >= 20)
         {
-            currentRotation = rb.transform.rotation;
-            currentRotation.Set(0, currentRotation.y, 0, currentRotation.w);
+            currentPos = rb.transform.position;
+            currentRot = rb.transform.rotation;
+            //reset x and z to zero, leaving y as it was.
+            currentRot = Quaternion.Euler(0, currentRot.eulerAngles.y, 0);
+            rb.transform.SetPositionAndRotation(currentPos, currentRot);
             frameCount = 0;
         }
-        frameCount++;
+        frameCount++; 
     }
 }

@@ -47,6 +47,30 @@ public class HeroStateWalkRoot : StateMachineBehaviour
         {
             animator.SetTrigger("Jump");
         }
+        else if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            animator.SetTrigger("Test1");
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            animator.SetTrigger("Test2");
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            animator.SetTrigger("Test3");
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha4))
+        {
+            animator.SetTrigger("Test4");
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha5))
+        {
+            animator.SetTrigger("Test5");
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha6))
+        {
+            animator.SetTrigger("Test6");
+        }
 
     }
 
