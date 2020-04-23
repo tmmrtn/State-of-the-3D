@@ -10,3 +10,5 @@
  Left Arrow --- Kick
  
  Down Arrow --- Block
+ 
+ Press numbers 1,2,3,4,5,6 on keyboard to test some new moves/animations.
