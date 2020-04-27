@@ -6,11 +6,10 @@ public class HeroStatePunch : StateMachineBehaviour
 {
     GameObject lhand;
 
-
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         lhand = GameObject.Find("hand.L");
-        lhand.tag = "NonDamaging";      
+        lhand.tag = "NonDamaging";
         
     }
 
@@ -26,7 +25,10 @@ public class HeroStatePunch : StateMachineBehaviour
             lhand.tag = "Damaging";
         }
         else
+        {
             lhand.tag = "NonDamaging";
+
+        }
     }
 
     //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

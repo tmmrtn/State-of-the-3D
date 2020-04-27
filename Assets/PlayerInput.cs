@@ -7,17 +7,26 @@ public class PlayerInput : MonoBehaviour
     Rigidbody rb;
     Vector3 currentPos;
     Quaternion currentRot;
+    Outline playerOutline;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody>();
+        playerOutline = GameObject.FindObjectOfType<Outline>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.W))
+        if(GameObject.FindWithTag("Damaging"))
+        {
+            playerOutline.OutlineColor = new Color(255, 0, 0);
+        }
+        else
+            playerOutline.OutlineColor = new Color(255, 255, 255);
+
+        if (Input.GetKey(KeyCode.W))
         {
             currentPos = rb.transform.position;
             currentRot = Quaternion.Euler(0, 180, 0);
