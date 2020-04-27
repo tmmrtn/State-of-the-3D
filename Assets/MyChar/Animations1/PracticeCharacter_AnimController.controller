@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70b467452c8ca14c978255636d05776, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pb: {fileID: 0}
 --- !u!1102 &-8047990129619000554
 AnimatorState:
   serializedVersion: 5
@@ -677,7 +678,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Anim_Kick_01
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101370778561106800}
@@ -705,7 +706,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Anim_Punch_01
-  m_Speed: 1
+  m_Speed: 2
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101628888916809664}
