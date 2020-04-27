@@ -20,7 +20,7 @@ public class HeroStatePunch : StateMachineBehaviour
         //      because not all frames of the animation are supposed to be damaging (e.g., 'winding up' the punch or kick).
         //
 
-        if (stateInfo.normalizedTime >= 0.35f && stateInfo.normalizedTime < 0.70f)
+        if (stateInfo.normalizedTime >= 0.39f && stateInfo.normalizedTime < 0.65f)
         {
             lhand.tag = "Damaging";
         }
